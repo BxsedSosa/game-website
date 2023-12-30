@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock! Paper! Scisscors</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="title">
+      <a href='#'>Rock Paper Scissors</a>
+    </div>
+    <div class="top-bar-right">
+      <div class="dark-mode">
+        <a href="#">
+          <span class="material-symbols-sharp">
+            dark_mode
+          </span>
+        </a>
+      </div>
+      <div class="menu">
+        <a href="#">
+          <span class="material-symbols-sharp">
+            menu
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- entire screen below nav bar -->
+  <div class="game-area">
+
+    <div class="game-records">
+      <div class="wins-record">Wins: 1</div>
+      <div class="loss-record">Loses: 0</div>
+      <div class="tie-record">Tie: 0</div>
+    </div>
+
+    <div class="play-area">
+
+      <div class="player-location">
+
+        <div class="text-player">You</div>
+        <div class="text-vs">VS</div>
+        <div class="text-cpu">Computer</div>
+
+      </div>
+
+      <!-- Game start -->
+      <div class="game-interaction">
+        <div class="game-choice">
+          <div class="text-chose"></div>
+          <div class="pick-rock">
+            <button>R</button>
+          </div>
+          <div class="pick-paper">
+            <button>P</button>
+          </div>
+          <div class="pick-scissors">
+            <button>S</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="game-result"></div>
+
+    </div>
+  </div>
+  
+</body>
+
+<script src="src/main.js"></script>
+</html>
